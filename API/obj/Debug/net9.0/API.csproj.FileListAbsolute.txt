@@ -162,3 +162,5 @@ C:\Users\anees\OneDrive\Documents\Reactivities\API\bin\Debug\net9.0\Microsoft.Id
 C:\Users\anees\OneDrive\Documents\Reactivities\API\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\anees\OneDrive\Documents\Reactivities\API\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\anees\OneDrive\Documents\Reactivities\API\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\anees\OneDrive\Documents\Reactivities\API\bin\Debug\net9.0\FluentValidation.dll
+C:\Users\anees\OneDrive\Documents\Reactivities\API\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
