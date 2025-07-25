@@ -792,19 +792,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\anees\\.nuget\\packages\\": {}
+    "/Users/anees/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anees\\OneDrive\\Documents\\Reactivities\\Domain\\Domain.csproj",
+      "projectUniqueName": "/Users/anees/Documents/fullStack/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\anees\\OneDrive\\Documents\\Reactivities\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\anees\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anees\\OneDrive\\Documents\\Reactivities\\Domain\\obj\\",
+      "projectPath": "/Users/anees/Documents/fullStack/Domain/Domain.csproj",
+      "packagesPath": "/Users/anees/.nuget/packages/",
+      "outputPath": "/Users/anees/Documents/fullStack/Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\anees\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/anees/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -855,7 +855,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1307,19 +1307,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\anees\\.nuget\\packages\\": {}
+    "/Users/anees/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anees\\OneDrive\\Documents\\Reactivities\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "/Users/anees/Documents/fullStack/Persistence/Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "C:\\Users\\anees\\OneDrive\\Documents\\Reactivities\\Persistence\\Persistence.csproj",
-      "packagesPath": "C:\\Users\\anees\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anees\\OneDrive\\Documents\\Reactivities\\Persistence\\obj\\",
+      "projectPath": "/Users/anees/Documents/fullStack/Persistence/Persistence.csproj",
+      "packagesPath": "/Users/anees/.nuget/packages/",
+      "outputPath": "/Users/anees/Documents/fullStack/Persistence/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\anees\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/anees/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -1331,8 +1331,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\anees\\OneDrive\\Documents\\Reactivities\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\anees\\OneDrive\\Documents\\Reactivities\\Domain\\Domain.csproj"
+            "/Users/anees/Documents/fullStack/Domain/Domain.csproj": {
+              "projectPath": "/Users/anees/Documents/fullStack/Domain/Domain.csproj"
             }
           }
         }
@@ -1382,7 +1382,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

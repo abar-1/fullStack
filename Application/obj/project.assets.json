@@ -1640,19 +1640,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\anees\\.nuget\\packages\\": {}
+    "/Users/anees/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anees\\OneDrive\\Documents\\Reactivities\\Application\\Application.csproj",
+      "projectUniqueName": "/Users/anees/Documents/fullStack/Application/Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\anees\\OneDrive\\Documents\\Reactivities\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\anees\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anees\\OneDrive\\Documents\\Reactivities\\Application\\obj\\",
+      "projectPath": "/Users/anees/Documents/fullStack/Application/Application.csproj",
+      "packagesPath": "/Users/anees/.nuget/packages/",
+      "outputPath": "/Users/anees/Documents/fullStack/Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\anees\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/anees/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -1664,11 +1664,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\anees\\OneDrive\\Documents\\Reactivities\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\anees\\OneDrive\\Documents\\Reactivities\\Domain\\Domain.csproj"
+            "/Users/anees/Documents/fullStack/Domain/Domain.csproj": {
+              "projectPath": "/Users/anees/Documents/fullStack/Domain/Domain.csproj"
             },
-            "C:\\Users\\anees\\OneDrive\\Documents\\Reactivities\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\anees\\OneDrive\\Documents\\Reactivities\\Persistence\\Persistence.csproj"
+            "/Users/anees/Documents/fullStack/Persistence/Persistence.csproj": {
+              "projectPath": "/Users/anees/Documents/fullStack/Persistence/Persistence.csproj"
             }
           }
         }
@@ -1722,7 +1722,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
