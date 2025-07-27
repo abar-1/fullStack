@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.AspNetCore.Authorization;
 using Application.Interfaces;
 using Infrastructure.Security;
+using Infrastructure.Photos;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -57,6 +58,8 @@ builder.Services.AddAuthorization(opt =>
 
 builder.Services.AddTransient<IAuthorizationHandler, isHostRequirementHandler>();
 
+builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));
+builder.Services.AddScoped<IPhotoService, PhotoService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline (middleware)
