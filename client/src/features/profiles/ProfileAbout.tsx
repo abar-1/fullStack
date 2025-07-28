@@ -1,6 +1,5 @@
 import { useParams } from "react-router"
 import { useProfile } from "../../lib/hooks/useProfile";
-import { BorderClear } from "@mui/icons-material";
 import { Box, Button, Divider, Typography } from "@mui/material";
 import { useState } from "react";
 import ProfileEditForm from "./ProfileEditForm";
