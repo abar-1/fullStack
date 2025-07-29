@@ -22,9 +22,9 @@ public class GetProfilePhotos
                 .SelectMany(p => p.Photos)
                 .ToListAsync(cancellationToken);
 
-            if (photos == null || !photos.Any()){
-                return Result<List<Photo>>.Failure("No photos found for this user", 404);
-            }
+            // if (photos == null || !photos.Any()){
+            //     return Result<List<Photo>>.Failure("No photos found for this user", 404);
+            // }
             return Result<List<Photo>>.Success(photos);
         }
     }

@@ -8,7 +8,7 @@ type Props = {
 }
 
 export default function ActivityCard({profile}: Props) {
-    const following = false;
+
    
    
     return(
@@ -31,14 +31,14 @@ export default function ActivityCard({profile}: Props) {
                         )}
 
 
-                        {following && <Chip size="small" label='Following' color='secondary' />}
+                        {profile.following && <Chip size="small" label='Following' color='secondary' />}
 
                     </Box>
                 </CardContent>
                 <Divider sx={{mb: 2}} />
                 <Box display='flex' alignItems='center' justifyContent='start'>
                     <Person />
-                    <Typography sx={{ml: 1}}>20 Followers</Typography>
+                    <Typography sx={{ml: 1}}>{profile.followersCount} Followers</Typography>
                 </Box>
             </Card>
         

@@ -28,6 +28,8 @@ export default function ProfilePhotos() {
 
   if (loadingPhotos) return <Typography>Loading photos...</Typography>;
 
+  if(!photos) return <Typography>No photos</Typography>
+
   const handlePhotoUpload = (file: Blob) => {
     uploadPhoto.mutate(file, {
       onSuccess: () => {

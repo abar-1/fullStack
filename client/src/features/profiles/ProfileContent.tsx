@@ -2,6 +2,7 @@ import { Box, Paper, Tab, Tabs } from "@mui/material";
 import { useState, type SyntheticEvent } from "react"
 import ProfilePhotos from "./ProfilePhotos";
 import ProfileAbout from "./ProfileAbout";
+import ProfileFollowings from "./ProfileFollowings";
 
 
 export default function ProfileContent() {
@@ -10,8 +11,8 @@ export default function ProfileContent() {
         { label: 'About', content: <div><ProfileAbout /></div> },
         {label: 'Photos', content: <div><ProfilePhotos /></div> },
         {label: 'Events', content: <div>Events Content</div>},
-        { label: 'Followers', content: <div>Followers Content</div> },
-        { label: 'Following', content: <div>Following Content</div> },
+        { label: 'Followers', content: <div><ProfileFollowings activeTab={value} /></div> },
+        { label: 'Following', content: <div><ProfileFollowings activeTab={value} /></div> },
     ]
 
     const handleChange = (_: SyntheticEvent, newValue: number) => {
@@ -23,7 +24,7 @@ export default function ProfileContent() {
         component={Paper}
         mt={2}
         p={3}
-        elevation={500}
+        //elevation={500}
         height={500}
         sx={{display: 'flex', alignItems: 'flex-start', borderRadius: 3}}
     >
