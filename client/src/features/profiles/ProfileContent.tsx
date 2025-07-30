@@ -3,6 +3,7 @@ import { useState, type SyntheticEvent } from "react"
 import ProfilePhotos from "./ProfilePhotos";
 import ProfileAbout from "./ProfileAbout";
 import ProfileFollowings from "./ProfileFollowings";
+import ProfileActivities from "./ProfileActivities";
 
 
 export default function ProfileContent() {
@@ -10,7 +11,7 @@ export default function ProfileContent() {
     const tabContent = [
         { label: 'About', content: <div><ProfileAbout /></div> },
         {label: 'Photos', content: <div><ProfilePhotos /></div> },
-        {label: 'Events', content: <div>Events Content</div>},
+        {label: 'Events', content: <div><ProfileActivities /></div>},
         { label: 'Followers', content: <div><ProfileFollowings activeTab={value} /></div> },
         { label: 'Following', content: <div><ProfileFollowings activeTab={value} /></div> },
     ]
@@ -24,15 +25,23 @@ export default function ProfileContent() {
         component={Paper}
         mt={2}
         p={3}
-        //elevation={500}
-        height={500}
-        sx={{display: 'flex', alignItems: 'flex-start', borderRadius: 3}}
+        elevation={100}
+        sx={{
+            display: 'flex',
+            alignItems: 'stretch',
+            minHeight: 500,
+            borderRadius: 3,
+        }}
     >
         <Tabs
             orientation="vertical"
             value={value}
             onChange={handleChange}
-            sx={{borderRight: 1, height: 450, mnWidth: 200}}
+            sx={{
+                borderRight: 1,
+                width: 200,
+                flexShrink: 0,
+            }}
         >
             {tabContent.map((tab, index) => (
                 <Tab key={index} label={tab.label} value={index} sx={{mr: 3}}/>
